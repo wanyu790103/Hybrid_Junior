@@ -1,4 +1,4 @@
-function Tree(leafSymbol = '*', decoSymbol = 'o', height = 5) {
+function JsTree(leafSymbol = '*', decoSymbol = 'o', height = 5) {
 
   for (let i = 0; i < height; i++) {
     let spaces = ' '.repeat(height - i - 1);
@@ -21,4 +21,4 @@ function Tree(leafSymbol = '*', decoSymbol = 'o', height = 5) {
 }
 
 
-Tree('*', '0', 5);
+JsTree('*', '0', 5);
